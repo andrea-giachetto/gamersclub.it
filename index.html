@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gamers Club — Il club dei giocatori di San Donà di Piave</title>
+  <meta name="description" content="Sta nascendo un'associazione di giocatori a San Donà di Piave: videogiochi, giochi da tavolo, D&D, carte collezionabili come Pokémon e Yu-Gi-Oh!. Serate, tornei e una community aperta a tutti.">
+  <meta property="og:title" content="Gamers Club — San Donà di Piave">
+  <meta property="og:description" content="Videogiochi, giochi da tavolo, D&D e carte collezionabili. Un club per chi ama giocare, in fase di creazione: cerchiamo i primi giocatori.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gamersclub.it">
+  <meta property="og:locale" content="it_IT">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e7c6b'/%3E%3Cpath d='M10 13h4v-3h4v3h4v4h-4v3h-4v-3h-4z' fill='%23f2a93b'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body class="antialiased">
+
+  <!-- ===================== NAV ===================== -->
+  <header class="sticky top-0 z-50 border-b-2 border-line bg-ground/90 backdrop-blur">
+    <nav class="mx-auto flex max-w-5xl items-center justify-between gap-4 px-5 py-3">
+      <a href="#" class="flex items-center gap-2.5 font-display text-lg font-bold tracking-tight">
+        <svg class="h-8 w-8" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="7" fill="#0e7c6b"/>
+          <path d="M10 13h4v-3h4v3h4v4h-4v3h-4v-3h-4z" fill="#f2a93b"/>
+        </svg>
+        Gamers Club
+      </a>
+      <div class="hidden items-center gap-7 text-sm font-medium text-mist sm:flex">
+        <a href="#idea" class="transition hover:text-ink">L'idea</a>
+        <a href="#attivita" class="transition hover:text-ink">Cosa faremo</a>
+        <a href="#faq" class="transition hover:text-ink">Domande</a>
+      </div>
+      <a href="#partecipa" class="rounded-full bg-teal px-4 py-2 text-sm font-semibold text-white transition hover:bg-teal-deep">
+        Fatti sentire
+      </a>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="mx-auto max-w-5xl px-5 pb-20 pt-16 sm:pt-24">
+    <p class="eyebrow mb-5">San Donà di Piave · Veneto orientale</p>
+    <h1 class="blink-cursor max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight sm:text-7xl">
+      Premi Start
+    </h1>
+    <p class="mt-7 max-w-xl text-lg leading-relaxed text-mist sm:text-xl">
+      Sta nascendo il club dei giocatori di San Donà di Piave e dintorni:
+      videogiochi, giochi da tavolo, dadi e carte collezionabili.
+      Serate insieme, tornei e una community che si vede di persona, attorno a un tavolo.
+    </p>
+    <p class="mt-4 max-w-xl text-lg leading-relaxed text-mist">
+      Per ora siamo un'idea e un dominio. Il resto lo costruiamo con te.
+    </p>
+    <div class="mt-9 flex flex-wrap items-center gap-4">
+      <!-- TODO: sostituisci con l'email reale -->
+      <a href="mailto:info@gamersclub.it?subject=Ci%20sto!" class="rounded-full bg-teal px-6 py-3 font-semibold text-white transition hover:bg-teal-deep">
+        Ci sto, tenetemi aggiornato
+      </a>
+      <a href="#idea" class="rounded-full border-2 border-line bg-card px-6 py-3 font-semibold text-ink transition hover:border-teal hover:text-teal">
+        Scopri l'idea
+      </a>
+    </div>
+    <div class="mt-14 flex flex-wrap gap-3 font-display text-xs font-bold tracking-widest">
+      <span class="rounded-md border-2 border-teal bg-teal px-3 py-1.5 text-white">PLAYER 1 · PRONTO</span>
+      <span class="rounded-md border-2 border-line bg-card px-3 py-1.5 text-mist">PLAYER 2 · SEI TU?</span>
+      <span class="rounded-md border-2 border-dashed border-line px-3 py-1.5 text-mist/60">PLAYER 3 · LIBERO</span>
+      <span class="rounded-md border-2 border-dashed border-line px-3 py-1.5 text-mist/60">PLAYER 4 · LIBERO</span>
+    </div>
+  </section>
+
+  <!-- ===================== L'IDEA ===================== -->
+  <section id="idea" class="border-y-2 border-line bg-card">
+    <div class="mx-auto grid max-w-5xl gap-10 px-5 py-20 md:grid-cols-[1fr_1.4fr]">
+      <div>
+        <p class="eyebrow mb-4">L'idea</p>
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Giocare è meglio in compagnia</h2>
+      </div>
+      <div class="space-y-5 text-lg leading-relaxed text-mist">
+        <p>
+          A San Donà e dintorni siamo in tanti a giocare — su PC e console, con i dadi
+          e le schede di D&amp;D, con un mazzo di Pokémon o Yu-Gi-Oh! nello zaino, o con
+          un gioco da tavolo che aspetta solo altri tre giocatori. Ma lo facciamo quasi
+          sempre da soli, o sempre con le stesse tre persone.
+        </p>
+        <p>
+          <strong class="text-ink">Gamers Club vuole cambiare questo:</strong> un'associazione
+          di giocatori del territorio — di videogiochi, giochi da tavolo, di ruolo e di carte —
+          per trovarsi di persona, organizzare serate ed eventi e dare al gioco quello che
+          gli manca: le persone attorno al tavolo.
+        </p>
+        <p>
+          Siamo all'inizio: prima di fondare l'associazione vogliamo capire quanti siamo.
+          Se l'idea ti accende qualcosa, <a href="#partecipa" class="font-semibold text-teal underline decoration-2 underline-offset-4 hover:text-teal-deep">fatti sentire</a> —
+          non serve altro, per ora.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ATTIVITÀ ===================== -->
+  <section id="attivita" class="mx-auto max-w-5xl px-5 py-20">
+    <p class="eyebrow mb-4">Cosa faremo</p>
+    <h2 class="max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">Sei modi di giocare insieme</h2>
+    <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+      <article class="rounded-2xl border-2 border-line bg-card p-7 transition hover:border-teal">
+        <svg class="h-9 w-9 text-teal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="2" y="5" width="20" height="11" rx="2"/><path d="M8 21h8M12 16v5"/>
+        </svg>
+        <h3 class="mt-4 text-xl font-bold">Serate LAN e gioco libero</h3>
+        <p class="mt-2 leading-relaxed text-mist">
+          Ritrovi periodici con PC e console: porti il tuo setup o usi quello che c'è,
+          e si gioca fianco a fianco come una volta — pizza inclusa, lag escluso.
+        </p>
+      </article>
+
+      <article class="rounded-2xl border-2 border-line bg-card p-7 transition hover:border-teal">
+        <svg class="h-9 w-9 text-teal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+        </svg>
+        <h3 class="mt-4 text-xl font-bold">Tornei ed eventi</h3>
+        <p class="mt-2 leading-relaxed text-mist">
+          Tornei locali su videogiochi e giochi di carte — picchiaduro, sportivi,
+          Pokémon, Yu-Gi-Oh! — con classifiche, premi simbolici e zero ansia da prestazione.
+        </p>
+      </article>
+
+      <article class="rounded-2xl border-2 border-line bg-card p-7 transition hover:border-teal">
+        <svg class="h-9 w-9 text-teal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z"/><path d="M12 2v10m0 0L3 7m9 5 9-5m-9 5v10"/>
+        </svg>
+        <h3 class="mt-4 text-xl font-bold">Giochi da tavolo e di ruolo</h3>
+        <p class="mt-2 leading-relaxed text-mist">
+          Serate di board game per tutti i gusti e campagne di ruolo come
+          Dungeons &amp; Dragons: master e giocatori si trovano qui.
+        </p>
+      </article>
+
+      <article class="rounded-2xl border-2 border-line bg-card p-7 transition hover:border-teal">
+        <svg class="h-9 w-9 text-teal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="4" width="11" height="16" rx="2"/><path d="M16 6.5 19.2 7.6a2 2 0 0 1 1.2 2.6L17 19.5"/><path d="m6.5 9.5 4 5m0-5-4 5"/>
+        </svg>
+        <h3 class="mt-4 text-xl font-bold">Carte collezionabili</h3>
+        <p class="mt-2 leading-relaxed text-mist">
+          Pomeriggi di gioco e scambio con Pokémon, Yu-Gi-Oh! e gli altri TCG:
+          porta il tuo mazzo, o vieni a imparare con uno in prestito.
+        </p>
+      </article>
+
+      <article class="rounded-2xl border-2 border-line bg-card p-7 transition hover:border-teal">
+        <svg class="h-9 w-9 text-teal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/><circle cx="9" cy="7" r="4"/>
+        </svg>
+        <h3 class="mt-4 text-xl font-bold">Community online</h3>
+        <p class="mt-2 leading-relaxed text-mist">
+          Un gruppo dove trovare compagni di squadra, organizzare sessioni serali
+          e tenersi aggiornati tra un evento e l'altro.
+        </p>
+      </article>
+
+      <article class="rounded-2xl border-2 border-line bg-card p-7 transition hover:border-teal">
+        <svg class="h-9 w-9 text-teal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+        </svg>
+        <h3 class="mt-4 text-xl font-bold">Retrogaming e cultura</h3>
+        <p class="mt-2 leading-relaxed text-mist">
+          Serate a tema con le console che ci hanno cresciuti, collezionismo,
+          e chiacchiere serie (ma non troppo) sul videogioco come cultura.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================== PER CHI ===================== -->
+  <section class="border-y-2 border-line bg-card">
+    <div class="mx-auto max-w-5xl px-5 py-20">
+      <p class="eyebrow mb-4">Per chi</p>
+      <h2 class="max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">Se giochi — o vorresti — sei dei nostri</h2>
+      <p class="mt-5 max-w-xl text-lg leading-relaxed text-mist">
+        Nessun requisito di livello, età o piattaforma — pad, mouse, dadi o carte,
+        qui vale tutto. Il club è per:
+      </p>
+      <ul class="mt-8 flex flex-wrap gap-3 text-sm font-semibold">
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">chi gioca da una vita</li>
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">chi ha appena iniziato</li>
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">i competitivi</li>
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">i casual della domenica</li>
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">i nostalgici del retrogaming</li>
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">master e party di D&amp;D</li>
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">chi colleziona e scambia carte</li>
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">genitori e figli</li>
+        <li class="rounded-full border-2 border-line bg-ground px-4 py-2">i curiosi che vogliono capire</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== PARTECIPA ===================== -->
+  <section id="partecipa" class="mx-auto max-w-5xl px-5 py-20">
+    <div class="rounded-3xl bg-ink px-7 py-14 text-center sm:px-14">
+      <p class="font-display text-xs font-bold tracking-widest text-amber">NUOVA PARTITA · CERCASI GIOCATORI</p>
+      <h2 class="mx-auto mt-4 max-w-xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        Aiutaci a capire quanti siamo
+      </h2>
+      <p class="mx-auto mt-4 max-w-lg leading-relaxed text-white/70">
+        Niente iscrizioni, niente impegni: ci basta sapere che ci sei.
+        Scrivici due righe e ti aggiorniamo quando si parte.
+      </p>
+      <div class="mt-9 flex flex-wrap items-center justify-center gap-4">
+        <!-- TODO: sostituisci con l'email reale -->
+        <a href="mailto:info@gamersclub.it?subject=Ci%20sto!" class="rounded-full bg-amber px-6 py-3 font-semibold text-ink transition hover:brightness-110">
+          Scrivici · info@gamersclub.it
+        </a>
+        <!-- TODO: sostituisci # con il link d'invito Discord o Telegram appena creato,
+             e togli pointer-events/opacity per attivarlo -->
+        <a href="#" class="pointer-events-none rounded-full border-2 border-white/25 px-6 py-3 font-semibold text-white/50" aria-disabled="true">
+          Gruppo Discord · in arrivo
+        </a>
+      </div>
+      <!-- TODO: sostituisci # con il profilo Instagram reale e attiva il link -->
+      <p class="mt-6 text-sm text-white/50">
+        Presto anche su <span class="font-semibold text-white/70">Instagram</span> — stiamo preparando i canali.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section id="faq" class="mx-auto max-w-3xl px-5 pb-24">
+    <p class="eyebrow mb-4">Domande frequenti</p>
+    <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Le cose che ci chiedono tutti</h2>
+    <div class="mt-10 space-y-4">
+
+      <details class="group rounded-2xl border-2 border-line bg-card px-6 py-5 open:border-teal">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg font-bold [&::-webkit-details-marker]:hidden">
+          Il club esiste già?
+          <span class="text-teal transition group-open:rotate-45">＋</span>
+        </summary>
+        <p class="mt-3 leading-relaxed text-mist">
+          Non ancora: siamo in fase di esplorazione. Prima raccogliamo gli interessati,
+          poi — se siamo abbastanza — fondiamo l'associazione con statuto, tessere e tutto il resto.
+        </p>
+      </details>
+
+      <details class="group rounded-2xl border-2 border-line bg-card px-6 py-5 open:border-teal">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg font-bold [&::-webkit-details-marker]:hidden">
+          Quanto costa partecipare?
+          <span class="text-teal transition group-open:rotate-45">＋</span>
+        </summary>
+        <p class="mt-3 leading-relaxed text-mist">
+          In questa fase niente: farsi sentire è gratis. Quando l'associazione nascerà ci sarà
+          una quota annuale leggera, decisa insieme ai soci, per coprire spazi ed eventi.
+        </p>
+      </details>
+
+      <details class="group rounded-2xl border-2 border-line bg-card px-6 py-5 open:border-teal">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg font-bold [&::-webkit-details-marker]:hidden">
+          Devo essere bravo per unirmi?
+          <span class="text-teal transition group-open:rotate-45">＋</span>
+        </summary>
+        <p class="mt-3 leading-relaxed text-mist">
+          No. Contano la voglia di giocare e di stare in compagnia — il livello è l'ultima
+          delle preoccupazioni. Ai tornei si partecipa per divertirsi, non per il montepremi.
+        </p>
+      </details>
+
+      <details class="group rounded-2xl border-2 border-line bg-card px-6 py-5 open:border-teal">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg font-bold [&::-webkit-details-marker]:hidden">
+          Dove vi trovate?
+          <span class="text-teal transition group-open:rotate-45">＋</span>
+        </summary>
+        <p class="mt-3 leading-relaxed text-mist">
+          A San Donà di Piave e nel circondario. Lo spazio esatto per i ritrovi lo cercheremo
+          in base a quanti saremo — anche su questo, ogni idea è benvenuta.
+        </p>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="border-t-2 border-line bg-card">
+    <div class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 px-5 py-8 text-sm text-mist sm:flex-row">
+      <p class="flex items-center gap-2 font-display font-bold text-ink">
+        <svg class="h-6 w-6" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="7" fill="#0e7c6b"/>
+          <path d="M10 13h4v-3h4v3h4v4h-4v3h-4v-3h-4z" fill="#f2a93b"/>
+        </svg>
+        Gamers Club
+      </p>
+      <p>San Donà di Piave · un'idea in cerca di giocatori · 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>

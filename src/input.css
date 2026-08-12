@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ground: #f6f8f7;
+  --color-ink: #132a28;
+  --color-teal: #0e7c6b;
+  --color-teal-deep: #0a5d51;
+  --color-amber: #f2a93b;
+  --color-mist: #5a6e6b;
+  --color-line: #d9e2df;
+  --color-card: #ffffff;
+
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Figtree", "Avenir", "Helvetica Neue", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-ground);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+  ::selection {
+    background-color: var(--color-amber);
+    color: var(--color-ink);
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-teal);
+  }
+  .blink-cursor::after {
+    content: "▮";
+    margin-left: 0.08em;
+    color: var(--color-amber);
+    animation: blink 1.1s steps(1) infinite;
+  }
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .blink-cursor::after { animation: none; }
+    html { scroll-behavior: auto; }
+  }
+}

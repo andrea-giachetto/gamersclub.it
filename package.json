@@ -1,0 +1,15 @@
+{
+  "name": "gamersclub.it",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page di Gamers Club, associazione di videogiocatori a San Donà di Piave",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o assets/style.css --minify",
+    "watch": "tailwindcss -i src/input.css -o assets/style.css --watch",
+    "dev": "npx serve ."
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
